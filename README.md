@@ -18,5 +18,4 @@ python create_minard_db.py
 ```bash
 python plot_with_basemap.py
 ```
-
 ![](minard_clone.png)
