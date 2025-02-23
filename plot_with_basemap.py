@@ -55,6 +55,7 @@ for i in range(rows - 1):
     line_width = survives[i]
     ax[0].plot(start_stop_lons, start_stop_lats, linewidth=line_width/20000, color=line_color, zorder=0)
 
+# draw temperature plot 
 temp_celsius = (temperatures_df["temp"] * 5/4).astype(int)
 annotations = temp_celsius.astype(str).str.cat(temperatures_df['date'], sep="°C")
 ax[1].plot(lonts, temp_celsius, linestyle="dashed", color="black")

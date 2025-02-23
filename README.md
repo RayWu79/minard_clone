@@ -1,8 +1,10 @@
-# Introduction
+# Napoleon's Russian Campaign 1812 (French invasion of Russia) 
 
-This project, *Napoleon's Russian Campaign*, is a recreation of the renowned data visualization *Charles Minard's Napoleon's Disastrous Russian Campaign of 1812*. We built a database using `pandas` and `sqlite3` and conducted a proof of concept using `matplotlib` and `basemap` to produce the final visualization.
+## Introduction
 
-# How to Reproduce
+This project, *Napoleon's Russian Campaign 1812*, is a recreation of the renowned data visualization *Charles Minard's Napoleon's Disastrous Russian Campaign of 1812*. We built a database using `pandas` and `sqlite3` and conducted a proof of concept using `matplotlib` and `basemap` to produce the final visualization.
+
+## How to Reproduce
 
 - Install Miniconda.
 - Create the environment based on `environment.yml`:
